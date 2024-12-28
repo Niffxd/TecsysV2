@@ -17,6 +17,11 @@
   src: url('../assets/fonts/GoldplayLight.otf');
 }
 
+@font-face {
+  font-family: 'Zilla';
+  src: url('../assets/fonts/zilla-slab-700.otf');
+}
+
 /* colors: */
 
 :root {

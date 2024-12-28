@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TecSys
 
-## Getting Started
+![TecSys Logo](./assets/icons/logo.svg)
 
-First, run the development server:
+**With TecSys, we simplify the diagnosis of your iPhone in seconds and guarantee a transparent and efficient service.**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 📌 Description
+
+TecSys is a tool designed to quickly and easily record the physical and functional condition of iPhone devices before their diagnosis or repair. Its goal is to ensure transparency, trust, and precision throughout the technical service process.
+
+---
+
+## 🚀 Features
+
+- Quick registration through an intuitive form.
+- Detailed documentation of the device's physical and functional condition.
+- Modern and user-friendly interface.
+- Ensures a clear and reliable diagnosis.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** NextJS 15 with React 19
+- **Backend:** Not required
+- **Database:** Not required
+
+---
+
+## 📂 Project Structure
+
+```plaintext
+TecSys/
+├── public/
+│   └── logo.svg
+├── src/
+│   ├── components/
+│   ├── pages/
+│   └── utils/
+├── README.md
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📖 Installation and Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Niffxd/tecsys.git
+   ```
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+3. Build the project:
+   ```bash
+   npm run build
+   ```
+4. Start the server:
+   ```bash
+   npm start
+   ```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributions
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! If you wish to collaborate, please follow these steps:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the project.
+2. Create a branch with your new feature or fix: `git checkout -b my-branch`
+3. Make your changes and commit them: `git commit -m "Added new feature"`
+4. Push the changes: `git push origin my-branch`
+5. Open a Pull Request.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📩 Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you have any questions or suggestions, feel free to reach out:
+
+- **Email:** nicosanchez673@gmail.com
+- **GitHub:** [Niffxd](https://github.com/Niffxd)
+
+---
+
+Thank you for using TecSys! 😊
