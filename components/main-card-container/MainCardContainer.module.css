@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  min-width: 900px;
+  min-height: 600px;
+  padding: 10px;
+}
+
+.side_bar {
+  width: 250px;
+  background-color: var(--color-main);
+}
+
+.actual_content {
+  width: calc(100% - 250px);
+  padding: 0 20px;
+}
