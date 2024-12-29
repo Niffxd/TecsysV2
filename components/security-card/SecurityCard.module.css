@@ -1,4 +1,4 @@
-/* .general_card {
+/* security_card {
   height: 100%;
   display: flex;
   align-items: center;
@@ -11,51 +11,43 @@
   transition: all 0.3s;
 } */
 
-.general_card {
+.security_card {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-.general_card_item {
+.security_card_item {
   padding: 20px;
   border: 1px solid var(--color-light-gray);
 }
 
-.general_card_item_title {
+.security_card_item_title {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 12px;
 }
 
-.general_card_item_info {
+.security_card_item_info {
   margin-bottom: 48px;
 }
 
-.general_card_item_form span {
-  margin-right: 24px;
-}
-
-.general_card_item_form {
-  margin-bottom: 16px;
-}
-
-.general_card_item_form input {
-  border: 1px solid var(--color-gray);
-  border-radius: 6px;
-  padding-left: 12px;
-}
-
-.general_card_item_form_checkboxes {
+.security_card_item_form_select {
   display: flex;
+  align-items: center;
   gap: 24px;
 }
 
-.general_card_item_form_checkboxes span {
+.security_card_item_form_select select {
+  width: 40%;
+  cursor: pointer;
+}
+
+.security_card_item_form_select span {
   margin-right: 12px;
 }
 
-.general_card_item_form_checkboxes input {
+.security_card_item_form_select input {
   cursor: pointer;
 }
